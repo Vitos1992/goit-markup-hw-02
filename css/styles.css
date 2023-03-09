@@ -1,46 +1,66 @@
-.body {
-  font-family: Roboto;
-  color: #FFFFFF;
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
 }
 
 /* Header Web Studio */
 
-.web{
+
+.studio {
+  color:#2e2f42;
+  font-size: 18px;
+  line-height: 1.17;
+  font-weight: 800;
+  font-family: Raleway;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+
+.list {
+  list-style: none;
+}
+
+
+.link {
   color: #4D5AE5;
   font-size: 18px;
-  line-height: 21%;
+  line-height: 1.17;
   font-weight: 800;
+  text-transform: uppercase;
+  font-family: Raleway;
+  text-decoration: none;
 
 }
 
-.logo{
-  color: #2E2F42;
-  font-size: 18px;
-  line-height: 21%;
-  font-weight: 800;
-  
-}
 
-.nav-links
-.link{
+.nav-links 
+.links {
   color: #2E2F42;
   font-size: 16px;
-  line-height: 24%;
+  line-height: 1.5;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
 }
 
-.nav-links
-.link:hover {
+.nav-links 
+.links:hover {
   color: #404BBF;
 }
 
+.nav-links 
+.links:focus {
+color: #404BBF;
+}
 
-.address-links
-.address{
+
+.address-links 
+.address {
   color: #434455;
   font-size: 16px;
   line-height: 24%;
   font-weight: 400;
+  font-style: normal;
 }
 
 .address-links 
@@ -48,14 +68,40 @@
   color: #404BBF;
 }
 
+.address-links 
+.address:focus{
+  color: #404bbf;
+}
+
 /* Main */
 
-.button{
+.item1{
+  background-color: #2E2F42;
+}
+
+.button {
   color: #FFFFFF;
   background-color: #4D5AE5;
   font-size: 16px;
-  line-height: 24%;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
   font-weight: 500;
+  cursor: pointer;
+  font-family: Roboto;
+  
+}
+
+.list-button{
+  list-style: none;
+}
+
+.button-p{
+  font-family: Roboto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
   cursor: pointer;
 }
 
@@ -64,55 +110,94 @@
   background-color: #404BBF;
 }
 
-.item{
+.item {
   font-size: 56px;
   color: #FFFFFF;
   line-height: 60%;
   font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02;
 }
 
 /* features */
 
-.list{
+.features{
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.head{
+  list-style: none;
+}
+
+.list1 {
   color: #2E2F42;
   font-size: 20px;
   line-height: 24%;
   font-weight: 500;
 }
 
-.list1{
+.list2 {
   color: #434455;
   font-size: 16px;
-  line-height: 24%;
+  line-height: 1.5;
+  letter-spacing: 0.02;
   font-weight: 400;
 }
 
-.title
-.title-team{
+.title .title-team {
   color: #2E2F42;
   font-size: 36px;
-  line-height: 40%;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-align: center;
   font-weight: 700;
+  text-transform: capitalize;
+}
+
+.list4{
+  list-style: none;
 }
 
 
-.name{
+.name {
   color: #2E2F42;
   font-size: 20px;
-  line-height: 24%;
+  line-height: 1.2;
   font-weight: 500;
+  letter-spacing: 0.02em;
+  text-align: center;
 }
 
-.specialty{
+.name1{
+  color: #2E2F42;
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+}
+
+.specialty {
   color: #434455;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 1.5;
   font-weight: 400;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+
+.specialty1{
+    color: #434455;
+    font-size: 16px;
+    line-height: 1.5;
+    font-weight: 400;
+    letter-spacing: 0.02em;
 }
 
 /* footer */
 
-.tim{
+.text {
   color: #F4F4FD;
   font-size: 16px;
   line-height: 24%;
@@ -120,7 +205,15 @@
 
 }
 
+.footer{
+  background-color: #2E2F42;
+}
 
+.studio-f{
+  color: #f4f4fd;
+}
 
-
+.list-portfolio{
+  list-style: none;
+}
 
