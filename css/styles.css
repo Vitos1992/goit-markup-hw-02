@@ -16,13 +16,6 @@ body {
   letter-spacing: 0.03em;
 }
 
-.list {
-  list-style: none;
-  font-style: normal;
-  text-decoration: none;
-}
-
-
 .link {
   color: #4D5AE5;
   font-size: 18px;
@@ -35,6 +28,13 @@ body {
   letter-spacing: 0.03em;
 
 }
+
+.list {
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+}
+
 
 .links {
   color: #2e2f42;
@@ -54,7 +54,7 @@ body {
   color: #404BBF;
 }
 
-.nav-links .links:focus {
+.links:focus {
   color: #404BBF;
 }
 
@@ -71,11 +71,11 @@ body {
 
 }
 
-.address-links .address:hover {
+.address:hover {
   color: #404BBF;
 }
 
-.address-links .address:focus {
+.address:focus {
   color: #404bbf;
 }
 
