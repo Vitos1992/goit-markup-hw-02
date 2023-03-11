@@ -19,6 +19,7 @@ body {
 .list {
   list-style: none;
   font-style: normal;
+  text-decoration: none;
 }
 
 
@@ -44,19 +45,12 @@ body {
   font-family: "Roboto",
     sans-serif;
   letter-spacing: 0.02em;
-
-}
-
-.nav-links .links {
-  color: #2E2F42;
-  font-size: 16px;
-  line-height: 1.5;
-  font-weight: 500;
-  letter-spacing: 0.02em;
   text-decoration: none;
+
 }
 
-.nav-links .links:hover {
+
+.links:hover {
   color: #404BBF;
 }
 
@@ -65,7 +59,7 @@ body {
 }
 
 
-.address-links .address {
+.address {
   color: #434455;
   font-size: 16px;
   line-height: 24%;
@@ -73,6 +67,7 @@ body {
   font-style: normal;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 
 }
 
@@ -86,7 +81,7 @@ body {
 
 /* Main */
 
-.item1 {
+.items {
   background-color: #2E2F42;
 }
 
@@ -143,7 +138,7 @@ body {
   list-style: none;
 }
 
-.list1 {
+.lists {
   color: #2E2F42;
   font-size: 20px;
   line-height: 1.2;
@@ -152,7 +147,7 @@ body {
 
 }
 
-.list2 {
+.lead {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
@@ -184,7 +179,7 @@ body {
   text-align: center;
 }
 
-.name1 {
+.names {
   color: #2E2F42;
   font-size: 20px;
   line-height: 1.2;
@@ -201,7 +196,7 @@ body {
   text-align: center;
 }
 
-.specialty1 {
+.specialtys {
   color: #434455;
   font-size: 16px;
   line-height: 1.5;
