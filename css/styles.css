@@ -16,7 +16,7 @@ body {
   letter-spacing: 0.03em;
 }
 
-.link {
+.logo-link {
   color: #4D5AE5;
   font-size: 18px;
   line-height: 1.17;
@@ -35,8 +35,12 @@ body {
   text-decoration: none;
 }
 
+.link{
+  text-decoration: none;
+}
 
-.links {
+
+.hov-foc{
   color: #2e2f42;
   font-size: 16px;
   line-height: 1.5;
@@ -50,8 +54,8 @@ body {
 }
 
 
-.links:hover,
-.links:focus {
+.hov-foc:hover,
+.hov-foc:focus {
   color: #404BBF;
 }
 
@@ -140,13 +144,7 @@ body {
   list-style: none;
 }
 
-.lists {
-  color: #2E2F42;
-  font-size: 20px;
-  line-height: 1.2;
-  font-weight: 500;
-  letter-spacing: 0.02em;
-}
+
 
 .lead {
   color: #434455;
