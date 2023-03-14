@@ -71,7 +71,6 @@ body {
   color: #404BBF;
 }
 
-
 /* Main */
 
 .items {
@@ -98,6 +97,11 @@ body {
     sans-serif;
 }
 
+.button:hover,
+.button:focus {
+  color: #404BBF;
+}
+
 .list-button {
   list-style: none;
 }
@@ -111,12 +115,17 @@ body {
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: #F4F4FD;
 }
 
-.button:hover {
-  color: #FFFFFF;
+.button-p:hover,
+.button-p:focus {
   background-color: #404BBF;
+  color: #FFFFFF;
+   
 }
+
+
 
 .item {
   font-size: 56px;
@@ -158,6 +167,11 @@ body {
   font-weight: 700;
   text-transform: capitalize;
 }
+
+.our-team{
+  background-color: #f4f4fd;
+}
+
 
 
 
